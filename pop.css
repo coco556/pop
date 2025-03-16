@@ -1,0 +1,26 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffde59;
+    color: #333333;
+    text-align: center;
+}
+
+header {
+    background-color: #ff914d;
+    padding: 20px;
+}
+
+.hero {
+    background-color: #ffcc00;
+    padding: 50px;
+}
+
+.cta {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
