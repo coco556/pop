@@ -29,11 +29,3 @@ header {
 .cta:hover {
     transform: scale(1.1);
 }
-
-.service, .testimonial {
-    padding: 30px;
-}
-
-.cta-section {
-    padding: 40px;
-}
