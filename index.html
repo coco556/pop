@@ -3,26 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ポップなLP</title>
+    <title>ポップデザインLP</title>
     <link rel="stylesheet" href="pop.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- タイトルセクション（背景動画あり） -->
     <header>
-        <h1>楽しく簡単に始める</h1>
+        <video autoplay muted loop class="hero-video">
+            <source src="your-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <h1>CASE 01</h1>
     </header>
 
-    <section class="hero">
-        <h2>ワクワクする未来へ！</h2>
-        <button class="cta">登録する</button>
-    </section>
+    <!-- メインコンテンツ -->
+    <main>
+        <section class="description fade-in">
+            <h2>レストランなど飲食店の手配</h2>
+            <p>「送別会をするから店の手配よろしく」という上司からの突然の依頼。20人が入れるお店を急に手配なんて！！</p>
+        </section>
 
-    <section class="service">
-        <h2>サービス内容</h2>
-        <p>楽しく使えるツールであなたの課題を解決！</p>
-    </section>
+        <section class="highlight fade-in">
+            <p>お店をピックアップいたしました！</p>
+        </section>
 
-    <section class="cta-section">
-        <button class="cta">無料トライアル</button>
-    </section>
+        <section class="service-details fade-in">
+            <div class="service-left">
+                <div class="service-item">🎉 <h3>スピーディーな対応</h3></div>
+                <div class="service-item">💡 <h3>最適な選択肢</h3></div>
+                <div class="service-item">🤝 <h3>コンシェルジュ対応</h3></div>
+            </div>
+            <div class="service-right">
+                <div class="service-detail" id="detail-1">🚀 最短30分でお店を手配！</div>
+                <div class="service-detail" id="detail-2">✨ 最適なお店を厳選してご提案！</div>
+                <div class="service-detail" id="detail-3">📞 24時間対応で即座にサポート！</div>
+            </div>
+        </section>
+
+        <section class="achievement fade-in">
+            <h2>実績</h2>
+            <p>✔ 5000件以上のビジネスサポート</p>
+            <p>✔ 成功率 98%！</p>
+            <p>✔ 24時間365日対応</p>
+        </section>
+
+        <section class="provider fade-in">
+            <h2>サービス提供者</h2>
+            <div class="provider-box">
+                <img src="https://source.unsplash.com/100x100/?person,portrait" alt="サービス提供者">
+                <div class="provider-info">
+                    <h3>〇〇 〇〇</h3>
+                    <p>BizCompass メンバーとして、このサービスを提供しています。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+        <p class="footer-text">Copyright © 2025 Life Compass. All rights reserved.</p>
+    </footer>
 </body>
 </html>
